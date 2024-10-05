@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      apiBase: 'http://192.168.183.4:2045',
+      apiBase: 'https://api.lockify.space/',
     }
   },
   modules: [
